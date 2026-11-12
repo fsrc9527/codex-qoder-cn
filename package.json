@@ -1,0 +1,28 @@
+{
+  "name": "codex-qoder-cn",
+  "version": "1.0.0",
+  "description": "Install the Qoder CN MCP server, Skill and visible subagent for Codex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsrc9527/codex-qoder-cn.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "bin": {
+    "codex-qoder-cn": "./install.mjs"
+  },
+  "files": [
+    "install.mjs",
+    "launch.mjs",
+    "runtime/package.json",
+    "runtime/npm-shrinkwrap.json",
+    "runtime/qoder-cli.mjs",
+    "runtime/runs.mjs",
+    "runtime/server.mjs",
+    "runtime/turns.mjs",
+    "codex/agents/qoder.toml",
+    "codex/skills/qoder-delegate/SKILL.md"
+  ]
+}
